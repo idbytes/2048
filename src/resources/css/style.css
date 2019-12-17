@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    font-size: 65px;
+    margin: 0;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    min-width: 390px;
+    transform: translate(-50%, -50%);
+}
+#scoreDiv{
+    flex: 1;
+    color: #cc6600;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    padding: 40px 20px 20px 10px;
+    vertical-align: center;
+}
+.gameover-div{
+    display: none;
+    padding: 10px;
+    background-color: #cc6600;
+    color: white;
+    margin: 8px;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.sub-header{
+    display: flex;
+}
+
+.sub-header > div{
+    padding: 10px;
+}
+.sub-header > div:nth-child(2){
+    padding: 10px 10px 10px 15px;
+}
+.sub-header > div > button{
+    margin-top: 15px;
+    background: #4d4d4d;
+    padding: 0 15px;
+    color: #f9f6f2;
+    line-height: 42px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.container-div{
+    margin: 2%;
+    font-size:1.5em;
+}
+table {
+    border-collapse:collapse;
+    border:1px solid #7f7f7f;
+}
+td {
+    border:1px solid #7f7f7f;
+    width:100px;
+    height:100px;
+    text-align:center;
+}
+div[id^="cell"] {
+    box-sizing: border-box;
+    float: left;
+    width: 50px; 
+    height: 50px; 
+    margin: 0;
+    padding: 0;  
+    border: 1px solid #404040;
+}
